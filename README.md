@@ -1,7 +1,8 @@
 # Senla ATM
 Техническое задание SENLA
 
-![Uploading ATM_1.gif…]()
+![Uploading ATM1.gif…]()
+
 
 
 ### Основные функции программы
