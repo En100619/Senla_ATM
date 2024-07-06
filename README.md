@@ -1,6 +1,6 @@
 # Senla ATM
 Техническое задание SENLA
-![Uploading Видео без названия — сделано в Clipchamp.gif…]()
+![ATM1](https://github.com/En100619/Senla_ATM/assets/108071851/9e49fd2c-912a-482e-a69e-58a0d860082b)
 ### Основные функции программы
 
 1. **Авторизация пользователя:**
