@@ -4,15 +4,15 @@ public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ATM atm = new ATM();
-
+        
         while (true) {
-            System.out.println("----------------------------------------------------");
-            System.out.println("Введите номер карты (16 цифр без пробелов и дефисов):");
+            System.out.println("-------------------------------------------------");
+            System.out.println("Введите номер карты (формат XXXX-XXXX-XXXX-XXXX):");
             String cardNumber = scanner.nextLine();
             System.out.println("--------------------");
             System.out.println("Введите ПИН-код:");
             String pin = scanner.nextLine();
-
+            
             if (atm.authenticate(cardNumber, pin)) {
                 int choice;
                 do {
@@ -24,7 +24,7 @@ public class Main {
                     System.out.println("4. Выход");
                     System.out.println("Выберите опцию:");
                     choice = scanner.nextInt();
-
+                    
                     switch (choice) {
                         case 1:
                             atm.checkBalance(cardNumber);
@@ -50,7 +50,6 @@ public class Main {
             } else {
                 System.out.println("Ошибка. Пожалуйста, проверьте номер карты и ПИН-код.");
             }
-            scanner.nextLine();
         }
     }
 }
