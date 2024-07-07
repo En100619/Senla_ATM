@@ -3,7 +3,7 @@
 
 ![ATM_1](https://github.com/En100619/Senla_ATM/assets/108071851/21a34d12-82e8-41ae-ae5d-7d971bdde3b0)
 
-'git clone https://github.com/En100619/Senla_ATM.git' 
+`git clone https://github.com/En100619/Senla_ATM.git`
 
 ### Основные функции программы
 
